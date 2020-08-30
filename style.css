@@ -1,16 +1,203 @@
 /* Type your code here */
+*{
+	font-family: Nunito Sans;
+	font-style: normal;
+	/* margin-left: 80px; */
+}
 
+.logo{
+	margin-left: 80px;
+	text-align: end;
+	margin-top: 20px;
+	margin-right:30px ;
+}
+
+.bg_img{
+	margin-top: -501px;
+	width: 826px;
+	height: 573px;
+	margin-left: 700px;
+	background-image: url('assets/background-image1.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/* z-index: 0; */
+	position: relative;
+}
+
+.main-head{
+	margin-top: -10px;
+	font-size: 3.5rem;
+	font-weight: bolder;
+	margin-left:80px;
+	text-shadow: 1px 5px 3px gray;
+	/* box-shadow: 10px 10px 5px gray; */
+}
+
+.sub-head{
+	margin-top: -50px;
+	font-size: 1.8rem;
+	font-weight: bolder;
+	color: gray;
+	margin-left:80px;
+}
 
 /* change the font family and spacing as per your project font */
 .footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
+	margin-top: -50px;
 	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-size: 18px;    
 }
+
+.table{
+	margin-left:80px;
+	border-collapse: collapse;
+	z-index: 1;
+	position: relative;
+	background-color: white;
+	width: 1100px;
+	box-shadow: -3px 0px 15px -5px #dddddd;
+}
+
+tr{
+	border-bottom: 1.5px solid #dddddd;
+	text-align: left;
+}
+
+td,th{
+	padding: 10px;
+}
+
+.bgcolor-orangered{
+	background-color: #F05136;
+	color: white;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.bgcolor-grey{
+	background-color:#FAFAFA;
+}
+
+.color-grey{
+	color: #828282;
+}
+
+.move-right{
+	padding-left: 38px;
+}
+
+.heart-img{
+	margin-left: 0px;
+}
+
+.table a{
+	display:table-cell;
+	text-decoration:none;
+	color: blue;
+}
+
+.table a:hover{
+	color: deepskyblue;
+}
+
+td a{
+	padding: 3px;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	visibility: hidden;
+  }
+
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+	z-index: 3;
+  }
+  
+  .popup {
+	top:30% ;
+	margin: 70px auto;
+	padding: 40px;
+	position: relative;
+  }
+
+  .img-prop{
+	width: 526px;
+	height: 250px;
+  }
+
+  .image1{
+	background-image: url('assets/Player6.png');
+	background-repeat: no-repeat;
+  }
+
+  .image2{
+	background-image: url('assets/Player5.png');
+	background-repeat: no-repeat;
+  }
+
+  .image3{
+	background-image: url('assets/Player4.png');
+	background-repeat: no-repeat;
+  }
+
+  .image4{
+	background-image: url('assets/Player3.png');
+	background-repeat: no-repeat;
+  }
+
+  .image5{
+	background-image: url('assets/Player2.png');
+	background-repeat: no-repeat;
+  }
+
+  .image6{
+	background-image: url('assets/Player1.png');
+	background-repeat: no-repeat;
+  }
+
+  .image7{
+	background-image: url('assets/Player1-1.jpg');
+	background-repeat: no-repeat;
+  }
+
+  .image8{
+	background-image: url('assets/Player1-2.jpg');
+	background-repeat: no-repeat;
+  }
+
+  .image9{
+	background-image: url('assets/Player1-3.jpg');
+	background-repeat: no-repeat;
+  }
+
+  .image10{
+	background-image: url('assets/Player1-4.jpg');
+	background-repeat: no-repeat;
+  }
+
+  .image11{
+	background-image: url('assets/Player1-5.jpg');
+	background-repeat: no-repeat;
+  }
+
+  .popup .close {
+	position: absolute;
+	top: -6px;
+	right: 90px;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color:blue;
+  }
+  .popup .close:hover {
+	color: orangered;
+  }
